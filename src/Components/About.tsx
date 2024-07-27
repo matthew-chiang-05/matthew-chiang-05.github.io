@@ -7,7 +7,7 @@ const About = () => {
       <AboutPhoto src="/Photos/fin-2.jpg"></AboutPhoto>
       <AboutText>
         An ethusiastic and driven developer with a passion for building
-        real-user applications.
+        real-world user applications.
       </AboutText>
     </AboutSection>
   );

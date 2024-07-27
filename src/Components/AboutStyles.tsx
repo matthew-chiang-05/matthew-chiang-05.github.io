@@ -16,6 +16,5 @@ export const AboutPhoto = styled.img`
 `;
 
 export const AboutText = styled.p`
-  align: center;
   padding: 50px 50px;
 `;
