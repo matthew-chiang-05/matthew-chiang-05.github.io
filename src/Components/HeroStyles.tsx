@@ -4,11 +4,12 @@ export const HeroSection = styled.section`
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   flex-direction: row;
-  padding: 50px 50px;
+  padding: 50px 160px;
   color: #000000;
   background: #a07979;
+  font-family: "Courier new";
 `;
 
 export const HeroPhoto = styled.img`
@@ -17,12 +18,14 @@ export const HeroPhoto = styled.img`
   border-radius: 20%;
   object-fit: cover;
   object-position: center 65%;
+  margin-left: 170px;
 `;
 
 export const HeroTextSection = styled.section`
   height: 100vh;
+  width: 70%;
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   flex-direction: column;
   padding: 50px 50px;
@@ -33,9 +36,10 @@ export const HeroTextSection = styled.section`
 export const HeroH1 = styled.h1`
   font-size: 2.5rem;
   margin-bottom: 10px;
+  font-weight: bold;
 `;
 
 export const HeroP = styled.p`
-  font-size: 1.2rem;
-  text-align: center;
+  font-size: 1.6rem;
+  text-align: left;
 `;

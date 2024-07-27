@@ -1,13 +1,17 @@
 import styled from 'styled-components';
+import  {Link} from 'react-scroll';
+import React from 'react';
 
 export const NavBarContainer = styled.nav`
     background: #333;
     height: 60px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
     z-index: 10;
+    position: fixed;
 `;  
 
 export const NavLogo = styled.a`
@@ -36,7 +40,7 @@ export const NavItem = styled.li`
   height: 60px;
 `;
 
-export const NavLinks = styled.a`
+export const NavLinks = styled(Link)`
   color: #fff;
   display: flex;
   align-items: center;
