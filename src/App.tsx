@@ -4,6 +4,7 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import { AppContainer } from "./Components/AppStyles";
 import Contacts from "./Components/Contacts";
+import React from "react";
 
 function App() {
   return (
