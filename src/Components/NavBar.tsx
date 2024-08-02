@@ -26,9 +26,13 @@ const NavBar = () => {
         </NavItem>
         <NavItem>
           <NavItem>
-            <NavLinks to="projects" smooth={true}>
+            <NavBtnLinks
+              href="/Files/resume.pdf"
+              target="_blank"
+              rel="noopener referrer"
+            >
               Resume
-            </NavLinks>
+            </NavBtnLinks>
           </NavItem>
         </NavItem>
       </NavMenu>

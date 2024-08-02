@@ -4,10 +4,10 @@ import { AboutSection, AboutPhoto, AboutText } from "./AboutStyles";
 const About = () => {
   return (
     <AboutSection>
-      <AboutPhoto src="/Photos/fin-2.jpg"></AboutPhoto>
       <AboutText>
-        An ethusiastic and driven developer with a passion for building
-        real-world user applications.
+        I am a mathematics and computer science student studying at the
+        University of California San Diego. I have a passion for full-stack
+        development in both Python and Java.
       </AboutText>
     </AboutSection>
   );

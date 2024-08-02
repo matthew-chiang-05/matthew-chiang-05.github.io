@@ -2,10 +2,12 @@ import NavBar from "./Components/NavBar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
+import { AppContainer } from "./Components/AppStyles";
+import Contacts from "./Components/Contacts";
 
 function App() {
   return (
-    <div>
+    <AppContainer>
       <NavBar></NavBar>
       <div id="hero">
         <Hero></Hero>
@@ -16,7 +18,8 @@ function App() {
       <div id="projects">
         <Projects></Projects>
       </div>
-    </div>
+      <Contacts></Contacts>
+    </AppContainer>
   );
 }
 

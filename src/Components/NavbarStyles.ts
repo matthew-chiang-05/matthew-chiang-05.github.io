@@ -12,6 +12,8 @@ export const NavBarContainer = styled.nav`
     padding: 0 20px;
     z-index: 10;
     position: fixed;
+    font-family: "Lucida Sans Typewriter";
+
 `;  
 
 export const NavLogo = styled.a`
@@ -22,6 +24,7 @@ export const NavLogo = styled.a`
   display: flex;
   align-items: center;
   text-decoration: none;
+  font-family:
 `;
 
 export const NavMenu = styled.div`
@@ -48,6 +51,7 @@ export const NavLinks = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  font-size: 1.25rem;
 
   &:hover {
     color: #01bf71;
@@ -74,10 +78,10 @@ export const NavBtnLinks = styled.a`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+    font-size: 1.25rem;
 
     &:hover {
-    transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
+      color: #01bf71;
+      transition: all 0.2s ease-in-out;
     }
 `;
