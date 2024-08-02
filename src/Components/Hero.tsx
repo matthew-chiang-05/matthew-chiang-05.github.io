@@ -16,7 +16,7 @@ const Hero = () => {
           skills.
         </HeroP>
       </HeroTextSection>
-      <HeroPhoto src="/Photos/fin-2.jpg"></HeroPhoto>
+      <HeroPhoto src="/Photos/HeroPhoto.jpg"></HeroPhoto>
     </HeroSection>
   );
 };
