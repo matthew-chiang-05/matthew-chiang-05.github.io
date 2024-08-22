@@ -24,8 +24,13 @@ const Projects = () => {
     {
       title: "SocialSync",
       description:
-        "SocialSync is a complete back-end skeleton for a social media application built using FastApi. It's features an Oauth2 user authentication system, a PostgreSQL database, and methods to handle users, posts, likes, and friends. ",
-      images: ["/Photos/FastAPI2.png", "/Photos/FastAPI1.png"],
+        "SocialSync is a full stack social media application built using FastApi. It's features an Oauth2 user authentication system, a PostgreSQL database, and methods to handle users, posts, likes, friends, and messaging. ",
+      images: [
+        "/Photos/SocialSync1.png",
+        "/Photos/SocialSync2.png",
+        "/Photos/SocialSync3.png",
+        "/Photos/SocialSync4.png",
+      ],
     },
   ];
 
